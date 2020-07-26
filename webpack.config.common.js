@@ -14,7 +14,6 @@ module.exports = {
 
     output: {
         path: path.resolve('./build'),
-        publicPath: '/',
         filename: 'js/[name]-[hash].js',
         crossOriginLoading: 'anonymous'
     },
